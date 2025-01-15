@@ -1,3 +1,4 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
 * {
   box-sizing: border-box;
 }
@@ -27,4 +28,13 @@ h1 {
 .form-control {
   border:outset;
   font-size: large;
+}
+
+.todo-list-container {
+  max-height: 600px; 
+  overflow-y: auto;  
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }

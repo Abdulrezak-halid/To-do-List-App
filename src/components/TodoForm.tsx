@@ -16,7 +16,7 @@ const TodoForm: React.FC<Props> = ({ addTodo }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="d-flex gap-2">
+    <form onSubmit={handleSubmit} className="d-flex gap-2 w-100">
       <input
         className="form-control"
         type="text"

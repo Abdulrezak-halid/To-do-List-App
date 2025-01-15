@@ -1,7 +1,6 @@
 import React from 'react';
 import { Todo } from '../models/Todo';
 import TodoItem from './TodoItem';
-
 interface Props {
   todos: Todo[];
   toggleComplete: (id: number) => void;

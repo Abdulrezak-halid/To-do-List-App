@@ -1,5 +1,6 @@
 import React from 'react';
 import { Todo } from '../models/Todo';
+import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 interface TodoItemProps {
@@ -22,6 +23,10 @@ const TodoItem: React.FC<TodoItemProps> = ({ todo, toggleComplete, deleteTodo, u
             onChange={() => toggleComplete(todo.id)}
             className="form-check-input me-2"
           />
+          <OverlayTrigger
+            placement="top"
+            overlay={<Tooltip id={`tooltip-${todo.id}`}>Added on: {todo.createdAt}</Tooltip>}
+          >
           <span
             style={{
               textDecoration: todo.completed ? 'line-through' : 'none',
@@ -30,6 +35,7 @@ const TodoItem: React.FC<TodoItemProps> = ({ todo, toggleComplete, deleteTodo, u
           >
             {todo.text}
           </span>
+          </OverlayTrigger>
 
           {todo.completed && (
             <span className="ms-2 badge bg-success">Completed</span>
