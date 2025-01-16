@@ -22,6 +22,7 @@ const TodoItem: React.FC<TodoItemProps> = ({ todo, toggleComplete, deleteTodo, u
             checked={todo.completed}
             onChange={() => toggleComplete(todo.id)}
             className="form-check-input me-2"
+            style={{ width: '25px', height: '25px', cursor: 'pointer' }}
           />
           <OverlayTrigger
             placement="top"
