@@ -61,6 +61,7 @@ Filter Tasks: Use the Filter button to view (all), (completed), or (incomplete) 
 
 ## 📦 Components Overview
 
+```
 src
 ├── 📂 components
 │   ├── MainContainer.tsx
@@ -74,6 +75,7 @@ src
 ├── App.tsx
 ├── main.tsx
 ├── index.css
+```
 
 Represents a single task with edit, delete, and complete actions.
 
