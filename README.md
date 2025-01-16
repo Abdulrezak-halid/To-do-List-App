@@ -1,50 +1,81 @@
-# React + TypeScript + Vite
+✅ To-Do List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 A modern and elegant To-Do List application built using TypeScript, React, and Bootstrap. Manage your daily tasks effortlessly with a minimalistic and responsive design.
 
-Currently, two official plugins are available:
+📦 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Add, Edit, Delete, and Complete Tasks.
 
-## Expanding the ESLint configuration
+🎨 Stylish and Responsive UI with Bootstrap.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+📊 Local Storage Integration to persist tasks.
 
-- Configure the top-level `parserOptions` property like this:
+🎯 Task Filtering (All, Completed, Incomplete).
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+📅 Task Creation Date Tooltip.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+📦 Modular Component Structure.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+🔥 Toaster Notifications with react-hot-toast.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+🛠️ Technologies Used
+
+Frontend: React, TypeScript
+
+Styling: Bootstrap, CSS
+
+State Management: useState, useEffect
+
+Notifications: react-hot-toast
+
+Icons & Animation: Bootstrap Icons, CSS animations
+
+Local Storage: for task persistence
+
+📦 Installation
+
+Clone the repository:
+git clone <repository-url>
+Navigate to the project directory:
+cd todo-list-app
+Install dependencies:
+npm install
+Run the application:
+npm start
+Open in Browser:
+
+🎯 Usage
+
+Add Task: Enter a task and click Add Task.
+
+Complete Task: Check the checkbox next to a task to mark it as complete.
+
+Edit Task: Click the ✏️ button to edit a task.
+
+Delete Task: Click the 🗑️ button to delete a task.
+
+Filter Tasks: Use the Filter button to view all, completed, or incomplete tasks.
+
+📦 Components Overview
+
+TodoForm.tsx
+
+Form to add a new task.
+
+Uses Bootstrap for styling.
+
+TodoList.tsx
+
+Displays a list of tasks.
+
+TodoItem.tsx
+
+Represents a single task with edit, delete, and complete actions.
+
+📸 Screenshots
+
+📖 License
+
+This project is licensed under the MIT License. Feel free to use and modify it.
+
+🎉 Happy Coding! Keep Being Productive!
