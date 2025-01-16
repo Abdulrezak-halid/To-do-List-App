@@ -4,19 +4,19 @@
 
 ## 📦 Features
 
-> ✅ Add, Edit, Delete, and Complete Tasks.
+> **✅ Add, Edit, Delete, and Complete Tasks.**
 
-> 🎨 Stylish and Responsive UI with Bootstrap.
+> **🎨 Stylish and Responsive UI with Bootstrap.**
 
-> 📊 Local Storage Integration to persist tasks.
+> **📊 Local Storage Integration to persist tasks.**
 
-> 🎯 Task Filtering (All, Completed, Incomplete).
+> **🎯 Task Filtering (All, Completed, Incomplete).**
 
-> 📅 Task Creation Date Tooltip.
+> **📅 Task Creation Date Tooltip.**
 
-> 📦 Modular Component Structure.
+> **📦 Modular Component Structure.**
 
-> 🔥 Toaster Notifications with react-hot-toast.
+> **🔥 Toaster Notifications with react-hot-toast.**
 
 ## 🛠️ Technologies Used
 
@@ -84,4 +84,4 @@ Represents a single task with edit, delete, and complete actions.
 
 This project is licensed under the MIT License. Feel free to use and modify it.
 
-### 🎉 Happy Coding! Keep Being Productive!
+##### 🎉 Happy Coding! Keep Being Productive!
