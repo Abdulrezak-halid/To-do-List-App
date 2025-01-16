@@ -22,7 +22,7 @@ const TodoList: React.FC<Props> = ({ todos, toggleComplete, deleteTodo, updateTo
           />
         ))
       ) : (
-        <p className="text-center text-muted">There are no tasks currently.</p>
+        <p className="text-center text-muted">There are no tasks currently &#128512;</p>
       )}
     </div>
   );
