@@ -1,8 +1,8 @@
-✅ To-Do List App
+# 📋 To-Do List App
 
 🚀 A modern and elegant To-Do List application built using TypeScript, React, and Bootstrap. Manage your daily tasks effortlessly with a minimalistic and responsive design.
 
-📦 Features
+## 📦 Features
 
 ✅ Add, Edit, Delete, and Complete Tasks.
 
@@ -18,33 +18,36 @@
 
 🔥 Toaster Notifications with react-hot-toast.
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
-Frontend: React, TypeScript
+**Vite** : Blazing fast frontend tooling.
 
-Styling: Bootstrap, CSS
+**Frontend** : React, TypeScript
 
-State Management: useState, useEffect
+**Styling** : Bootstrap, CSS
 
-Notifications: react-hot-toast
+**State Management**: useState, useEffect
 
-Icons & Animation: Bootstrap Icons, CSS animations
+**Notifications** : react-hot-toast
 
-Local Storage: for task persistence
+**Icons** : Bootstrap Icons 
 
-📦 Installation
+## 📦 Installation & Packages Used
 
-Clone the repository:
-git clone <repository-url>
-Navigate to the project directory:
-cd todo-list-app
-Install dependencies:
-npm install
-Run the application:
-npm start
-Open in Browser:
+- Clone the repository: 
+> ```git clone <repository-url>```
+- Navigate to the project directory:
+> ```cd todo-list-app```
+- Install dependencies:
+> * ```npm install```
+> * ```react-bootstrap bootstrap```
+> * ```react-hot-toast```
+- Run the application:
+> ```npm run dev```
+- Open in Browser:
+> ```http://localhost:5173/```
 
-🎯 Usage
+## 🎯 Usage
 
 Add Task: Enter a task and click Add Task.
 
@@ -54,9 +57,9 @@ Edit Task: Click the ✏️ button to edit a task.
 
 Delete Task: Click the 🗑️ button to delete a task.
 
-Filter Tasks: Use the Filter button to view all, completed, or incomplete tasks.
+Filter Tasks: Use the Filter button to view (all), (completed), or (incomplete) tasks.
 
-📦 Components Overview
+## 📦 Components Overview
 
 TodoForm.tsx
 
@@ -72,9 +75,12 @@ TodoItem.tsx
 
 Represents a single task with edit, delete, and complete actions.
 
-📸 Screenshots
+## 📸 Screenshots
 
-📖 License
+![to-do-list](https://github.com/user-attachments/assets/06218c21-8452-4e7b-8480-5c85ea2f47e3)
+
+
+## 📖 License
 
 This project is licensed under the MIT License. Feel free to use and modify it.
 
