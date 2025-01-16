@@ -61,24 +61,25 @@ Filter Tasks: Use the Filter button to view (all), (completed), or (incomplete) 
 
 ## 📦 Components Overview
 
-TodoForm.tsx
-
-Form to add a new task.
-
-Uses Bootstrap for styling.
-
-TodoList.tsx
-
-Displays a list of tasks.
-
-TodoItem.tsx
+src
+├── 📂 components
+│   ├── MainContainer.tsx
+│   ├── TodoForm.tsx
+│   ├── TodoList.tsx
+│   └── TodoItem.tsx
+├── 📂 models
+│   └── Todo.ts
+├── 📂 assets
+│   └── todo.gif
+├── App.tsx
+├── main.tsx
+├── index.css
 
 Represents a single task with edit, delete, and complete actions.
 
 ## 📸 Screenshots
 
-![to-do-list](https://github.com/user-attachments/assets/06218c21-8452-4e7b-8480-5c85ea2f47e3)
-
+![to-do](https://github.com/user-attachments/assets/b2332c94-7546-431f-84a3-b30a42535b5d)
 
 ## 📖 License
 
