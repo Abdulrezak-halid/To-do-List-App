@@ -10,7 +10,7 @@ interface Props {
 
 const TodoList: React.FC<Props> = ({ todos, toggleComplete, deleteTodo, updateTodo }) => {
   return (
-    <div className="mt-4">
+    <div className="mt-4 todo-list-container">
       {todos.length > 0 ? (
         todos.map((todo) => (
           <TodoItem
