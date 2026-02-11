@@ -1,24 +1,24 @@
 # 📋 To-Do List App
 
-🚀 A modern and elegant To-Do List application built using TypeScript, React, and Bootstrap. Manage your daily tasks effortlessly with a minimalistic and responsive design.
+ A modern and elegant To-Do List application built using TypeScript, React, and Bootstrap. Manage your daily tasks effortlessly with a minimalistic and responsive design.
 
-## 📦 Features
+## Features
 
-> **✅ Add, Edit, Delete, and Complete Tasks.**
+> ** Add, Edit, Delete, and Complete Tasks.**
 
-> **🎨 Stylish and Responsive UI with Bootstrap.**
+> ** Stylish and Responsive UI with Bootstrap.**
 
-> **📊 Local Storage Integration to persist tasks.**
+> ** Local Storage Integration to persist tasks.**
 
-> **🎯 Task Filtering (All, Completed, Incomplete).**
+> ** Task Filtering (All, Completed, Incomplete).**
 
-> **📅 Task Creation Date Tooltip.**
+> ** Task Creation Date Tooltip.**
 
-> **📦 Modular Component Structure.**
+> ** Modular Component Structure.**
 
-> **🔥 Toaster Notifications with react-hot-toast.**
+> ** Toaster Notifications with react-hot-toast.**
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 **Vite** : Blazing fast frontend tooling.
 
@@ -32,7 +32,7 @@
 
 **Icons** : Bootstrap Icons 
 
-## 📦 Installation & Packages Used
+## Installation & Packages Used
 
 - Clone the repository: 
 > ```git clone <repository-url>```
@@ -47,7 +47,7 @@
 - Open in Browser:
 > ```http://localhost:5173/```
 
-## 🎯 Usage
+## Usage
 
 Add Task: Enter a task and click Add Task.
 
@@ -59,7 +59,7 @@ Delete Task: Click the 🗑️ button to delete a task.
 
 Filter Tasks: Use the Filter button to view (all), (completed), or (incomplete) tasks.
 
-## 📦 Components Overview
+## Components Overview
 
 ```
 src
@@ -83,7 +83,7 @@ Represents a single task with edit, delete, and complete actions.
 
 ![to-do](https://github.com/user-attachments/assets/b2332c94-7546-431f-84a3-b30a42535b5d)
 
-## 📖 License
+## License
 
 This project is licensed under the MIT License. Feel free to use and modify it.
 
