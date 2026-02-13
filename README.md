@@ -69,4 +69,4 @@ Represents a single task with edit, delete, and complete actions.
 
 This project is licensed under the MIT License. Feel free to use and modify it.
 
-##### 🎉 Happy Coding! Keep Being Productive!
+##### Happy Coding! Keep Being Productive!
