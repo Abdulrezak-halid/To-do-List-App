@@ -65,8 +65,4 @@ Represents a single task with edit, delete, and complete actions.
 
 ![to-do](https://github.com/user-attachments/assets/b2332c94-7546-431f-84a3-b30a42535b5d)
 
-## License
-
-This project is licensed under the MIT License. Feel free to use and modify it.
-
 ##### Happy Coding! Keep Being Productive!
