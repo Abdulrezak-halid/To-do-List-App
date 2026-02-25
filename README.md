@@ -34,18 +34,18 @@
 
 ## Installation & Packages Used
 
-- Clone the repository: 
-> ```git clone <repository-url>```
+- Clone the repository:
+```git clone <repository-url>```
 - Navigate to the project directory:
-> ```cd todo-list-app```
+```cd todo-list-app```
 - Install dependencies:
-> * ```npm install```
-> * ```react-bootstrap bootstrap```
-> * ```react-hot-toast```
+```npm install```
+```react-bootstrap bootstrap```
+```react-hot-toast```
 - Run the application:
-> ```npm run dev```
+```npm run dev```
 - Open in Browser:
-> ```http://localhost:5173/```
+```http://localhost:5173/```
 
 ## Usage
 
